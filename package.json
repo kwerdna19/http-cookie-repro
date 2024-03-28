@@ -1,0 +1,23 @@
+{
+	"name": "http-cookie-repro",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node -r ts-node/register ./index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"deasync": "^0.1.29",
+		"http-cookie-agent": "^6.0.1",
+		"tough-cookie": "^4.1.3",
+		"undici": "^6.10.2"
+	},
+	"devDependencies": {
+		"@types/tough-cookie": "^4.0.5",
+		"ts-node": "^10.9.2"
+	}
+}
